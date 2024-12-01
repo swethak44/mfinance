@@ -1,0 +1,30 @@
+.backimg{
+    min-height: 550px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+.backimg::before{
+    content: '';
+    background-image: url('../Components/imgs/bimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0.25;
+    
+}
+h1{
+    font-size:50px;
+    font-family:sans-serif;
+    color:Black;
+    position: relative;
+   
+    
+}

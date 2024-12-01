@@ -1,0 +1,47 @@
+.image{
+    min-height: 550px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+.image::before{
+    content: '';
+    background-image: url('../Components/imgs/mimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0.45;
+    
+}
+h1{
+    font-size:50px;
+    font-family:sans-serif;
+    color:Black;
+    position: relative;
+    
+}
+.box-row{
+    
+    background-color: #DBF3FA;
+    margin: 0 auto; 
+    padding: 0px 20px 20px 20px; 
+   
+}
+.box-row h2{
+    padding: 20px;
+}
+
+.box-row p{
+    text-align: left;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+

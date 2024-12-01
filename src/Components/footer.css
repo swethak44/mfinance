@@ -1,0 +1,18 @@
+footer{
+    /* background-color:#051094; */
+    background-color: grey;
+    min-height: 550px;
+    /* margin-top: 40px; */
+    
+}
+footer li{
+    padding: 5px;
+    text-align: left;
+}
+footer i{
+    margin-right: 10px;
+}
+.footsec{
+    background-color:darkgray;
+    min-height: 250px;
+}
