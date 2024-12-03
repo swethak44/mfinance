@@ -34,7 +34,7 @@ export default function Footer() {
                       </Col>
                       <Col lg={3}>
                           <h5 className="fs-4" style={{ marginTop: "50px", color: "white", fontFamily: "sans-serif" }}>LOAN HUB</h5>
-                          <ul className="fs- p-2" style={{ listStyleType: "none", color: "white" }}>
+                          <ul className="fs-6 p-2" style={{ listStyleType: "none", color: "white" }}>
                               <li>Home Loan</li>
                               <li>Business Loan</li>
                               <li>Personal Loan</li>
@@ -75,7 +75,7 @@ export default function Footer() {
                           <Col lg={3}>
                           </Col>
                           <Col lg={3}>
-                              <ul className="fs-6 p-2" style={{ listStyleType: "none", color: "white" }}>
+                              <ul className="fs-6 p-2 mt-5" style={{ listStyleType: "none", color: "white" }}>
 
                                   <li>Terms and Conditions</li>
                                   <li>Privacy Policy</li>
